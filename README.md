@@ -14,6 +14,8 @@ When the graph is simulated as a system of charged particles, its layout is achi
 
 As examples of Coulomb simulations, we present [nemetree](https://www.strong.io/blog-content/coulomb-graphs/nemetree" title="Interactive Tree Visualization) and [nemepos](https://www.strong.io/blog-content/coulomb-graphs/nemepos) for visualizing trees and partially-ordered sets, respectively. In both examples, we optimize graph layouts using numerical optimization over an objective function through Coulomb modeling of an electrostatic field.
 
+[All source code for these examples is available on our Github.](https://github.com/strongio/coulomb-simulation-graph-visualization)
+
 ### Tree visualization: nemetree
 
 Visualizing tree structures play an important role in many fields. For example, a traditional way to illustrate phylogenetic relationships among species is to model them using a tree, i.e. a phylogeny or an additive tree. This type of tree forms the basics to represent differences between species and to analyze those differences statistically.
@@ -73,6 +75,8 @@ In the example below, we show a D3js force visualization of a network graph for 
 Besides the fact that **nemetree** and **nemepos** are created for specific graph types and ingest pre-defined text representations of graphs, the major difference compared to D3js is how the final layout of graphical components is achieved. The two apps minimize system energy and converge to the optimal layout through the Nelder-Mead optimization algorithm. D3js-force applies the concept of tick, and it does not guarantee a final minimal Coulomb energy nor an absolute optimal layout.
 
 Instead, D3js offers fast computation for large graphs and leave it to the user to determine what's best for their particular use cases. Due to its flexibility and the power of Coulomb physics simulation, D3js not only is applicable to visualize general-purpose network graphs, it can also perform collision detection, gravity visualization, etc.
+
+To learn more about these techniques, please check out [our Github](https://github.com/strongio/coulomb-simulation-graph-visualization).
 
 ## Related works
 
