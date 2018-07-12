@@ -12,7 +12,7 @@ When the graph is simulated as a system of charged particles, its layout is achi
 
 ## Example web applications
 
-As examples of Coulomb simulations, we present [nemetree](https://www.strong.io/blog-content/coulomb-graphs/nemetree" title="Interactive Tree Visualization) and [nemepos](https://www.strong.io/blog-content/coulomb-graphs/nemepos) for visualizing trees and partially-ordered sets, respectively. In both examples, we optimize graph layouts using numerical optimization over an objective function through Coulomb modeling of an electrostatic field.
+As examples of Coulomb simulations, we present [nemetree](https://www.strong.io/blog-content/coulomb-graphs/nemetree) and [nemepos](https://www.strong.io/blog-content/coulomb-graphs/nemepos) for visualizing trees and partially-ordered sets, respectively. In both examples, we optimize graph layouts using numerical optimization over an objective function through Coulomb modeling of an electrostatic field.
 
 [All source code for these examples is available on our Github.](https://github.com/strongio/coulomb-simulation-graph-visualization)
 
